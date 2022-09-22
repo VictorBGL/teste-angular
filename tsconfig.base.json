@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@teste-angular/components": ["libs/components/src/index.ts"],
+      "@teste-angular/data": ["libs/data/src/index.ts"],
+      "@teste-angular/forms": ["libs/forms/src/index.ts"],
+      "@teste-angular/services": ["libs/services/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

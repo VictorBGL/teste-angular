@@ -1,0 +1,37 @@
+<div class="tela">
+    <div class="corBola1" (click)="ativaRam()">
+      <img *ngIf="rams.ram1 == true" class="image-ativo fadeIn" src="../../../assets/img/middle finger.jpg" alt="">
+    </div>
+    <div class="corBola3" (click)="ativaRam()">
+      <img *ngIf="rams.ram3 == true" class="image-ativo fadeIn" src="../../../assets/img/1 - ram cabelo.jpg" alt="">
+    </div>
+    <div class="corBola4" (click)="ativaRam()">
+      <img *ngIf="rams.ram4 == true" class="image-ativo fadeIn" src="../../../assets/img/alieram.jpg" alt="">
+    </div>
+    <div class="corBola5" (click)="ativaRam()">
+      <img *ngIf="rams.ram5 == true" class="image-ativo fadeIn" src="../../../assets/img/maran.png" alt="">
+    </div>
+    <div class="corbola6" (click)="ativaRam()">
+      <img *ngIf="rams.ram6 == true" class="image-ativo fadeIn" src="../../../assets/img/little RAM.png" alt="">
+    </div>
+    <div class="corBola2" (click)="ativaRam()">
+      <img *ngIf="rams.ram2 == true" class="image-ativo fadeIn" src="../../../assets/img/transferir.jpg" alt="">
+    </div>
+  <button class="botao-ativar" [disabled] >ATIVAR</button>
+  <div class="cor"></div>
+  <div class="login" [formGroup]="form">
+    <img class="god" src="../../../assets/img/logo_ficticia-removebg-preview.png" alt="">
+    <div class="campos">
+      <label class="label">Email</label>
+      <input class="input" type="" formControlName="email">
+    </div>
+    <div class="campos">
+      <label class="label">Senha</label>
+      <input class="input" type="" formControlName="senha" type="password">
+    </div>
+    <div class="botoes">
+      <button (click)="login()" class="botao">Entrar</button>
+    </div>
+  </div>
+  <div class="cor2"></div>
+</div>

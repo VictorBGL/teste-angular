@@ -1,0 +1,20 @@
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
+
+const routes: Routes = [
+  {
+    path: '',
+    loadChildren: () => import('./public/public.module').then(x => x.PublicModule)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./inicio/inicio.module').then(x => x.InicioModule)
+  }
+];
+
+@NgModule({
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
+})
+export class AppRouting { }

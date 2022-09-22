@@ -1,0 +1,197 @@
+
+.tela {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #396B6B;
+
+  .corBola1 {
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 200, 11);
+    border-top-left-radius: 100%;
+
+    .image-ativo {
+      transition: all 1s;
+      position: absolute;
+      width: 20vh;
+      height: 20vh;
+      border-top-left-radius: 100%;
+    }
+  }
+
+  .corBola3 {
+    position: absolute;
+    width: 40vh;
+    height: 40vh;
+    left: 342px;
+    bottom: 0;
+    background-color: rgb(255, 200, 11);
+    border-top-right-radius: 100%;
+
+    .image-ativo {
+      transition: all 1s;
+      position: absolute;
+      width: 40vh;
+      height: 40vh;
+      border-top-right-radius: 100%;
+    }
+  }
+
+  .corBola4 {
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    left: 500px;
+    top: 150px;
+    background-color: rgb(255, 200, 11);
+    border-radius: 100%;
+
+    .image-ativo {
+      transition: all 1s;
+      position: absolute;
+      width: 20vh;
+      height: 20vh;
+      border-radius: 100%;
+    }
+  }
+
+  .corBola5 {
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    left: 1058px;
+    top: 90px;
+    background-color: rgb(255, 200, 11);
+    border-radius: 100%;
+
+    .image-ativo {
+      transition: all 1s;
+      position: absolute;
+      width: 30vh;
+      height: 30vh;
+      border-radius: 100%;
+    }
+  }
+
+  .corbola6 {
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    right: 200px;
+    bottom: 80px;
+    background-color: rgb(255, 200, 11);
+    border-radius: 100%;
+
+    .image-ativo {
+      transition: all 1s;
+      position: absolute;
+      width: 10vh;
+      height: 10vh;
+      border-radius: 100%;
+    }
+  }
+
+  .corBola2 {
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    right: 26em;
+    bottom: 14em;
+    background-color: rgb(255, 200, 11);
+    border-radius: 100%;
+
+    .image-ativo {
+      transition: all 1s;
+      position: absolute;
+      width: 50vh;
+      height: 50vh;
+      border-radius: 100%;
+    }
+  }
+
+  .cor {
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(126, 185, 185);
+  }
+
+  .login {
+    position: absolute;
+    top: 6em;
+    left: 10em;
+    box-shadow: 0 4px 4px rgba(15, 15, 15, 0.24);
+    width: 21em;
+    padding: 22px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+
+    .god {
+      width: 160px;
+      margin-bottom: 20px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .campos {
+      margin-bottom: 20px;
+
+      .label {
+        display: block;
+        font-size: 12px;
+      }
+
+      .input {
+        width: 100%;
+        border-radius: 4px;
+        border-width: 1px;
+        // box-shadow: 2px 2px 2px  rgba(15, 15, 15, 0.24);
+        border-color: rgba(0, 0, 0, 0.459);
+        border-style: solid;
+        padding: .375rem .75rem;
+        // font-size: 12px;
+      }
+    }
+
+    .botoes {
+      display: flex;
+      justify-content: flex-end;
+
+      .botao {
+        background-color: rgb(126, 185, 185);
+        border: 0px;
+        border-radius: 5px;
+        height: 28px;
+        padding: 1px 14px;
+      }
+    }
+  }
+}
+
+.botao-ativar {
+  background-color: rgb(217, 217, 217);
+  border: 0px;
+  border-radius: 5px;
+  height: 30px;
+  padding: 4px 27px;
+  right: 33em;
+  bottom: 11em;
+  position: absolute;
+}
+
+.fadeIn {
+  animation: fadeIn 5000ms;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+

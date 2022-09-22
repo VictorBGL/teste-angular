@@ -1,0 +1,12 @@
+<div class="menu-lateral">
+  <div class="menu-logo">
+    <img class="menu-logo-img" src="assets/img/logo_ficticia-removebg-preview.png" alt="">
+  </div>
+  <div class="menu-lista" *ngFor="let grupo of grupos;let last = last" [ngClass]="{'mb-4': !last}" >
+    <div class="menu-lista-item" *ngFor="let item of grupo.itens"
+    (click)="activeMenu(item, grupo)" [ngClass]="{'ativo': item.ativo}" routerLink="{{item.rota}}">
+      <i class="{{item.icone}} icon"></i>
+      <div class="descricao">{{item.descricao}}</div>
+    </div>
+  </div>
+</div>

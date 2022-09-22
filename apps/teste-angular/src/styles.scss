@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/scss/style';
+@import './assets/scss/reset';
+@import './assets/scss/vendor/bootstrap-grid';
+
+input {
+  position: initial !important;
+}
+
+.cdk-visually-hidden {
+  display: none;
+}
