@@ -26,7 +26,7 @@ export class LoginComponent {
 
   form = new LoginFormGroup();
 
-  loginValido: LoginModel = {
+  loginValido: LoginModel =  {
     email: "victor.lino@treeinova.com",
     senha: "Teste@123"
   }
